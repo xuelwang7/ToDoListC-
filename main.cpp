@@ -7,11 +7,11 @@ struct Task {
     std::string description;
     bool completed;
 
-    // This constructor is optional if you're using uniform initialization
+    // This constructor is optional if  using uniform initialization
     Task(int id, std::string description, bool completed) : id(id), description(description), completed(completed) {}
 
 
-
+ 
 };
 
 
